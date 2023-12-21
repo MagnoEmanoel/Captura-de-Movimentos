@@ -1,0 +1,16 @@
+# .gitattributes
+*.html linguist-detectable=false
+*.htm linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+
+*.tex linguist-language=TeX
+
+*.generated.html linguist-generated=true
+docs/*.html linguist-generated=true
+build/*.html linguist-generated=true
+
+/doc/* linguist-generated=true
+
+*.py linguist-detectable=true
+*.tex linguist-detectable=true
