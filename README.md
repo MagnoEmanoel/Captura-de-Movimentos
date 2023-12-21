@@ -30,7 +30,7 @@ O projeto "Olho Vigilante" é uma aplicação Python que utiliza a biblioteca Op
 Certifique-se de liberar a câmera e fechar todas as janelas gráficas quando o programa for encerrado. Isso é feito automaticamente no script.
 
 ## Autor
-Este projeto foi desenvolvido por [Seu Nome/Apelido] e está disponível sob a licença [licença] para uso e distribuição.
+Este projeto foi desenvolvido por Magno Emanoel Chaves
 
 ## Notas
 - Este projeto pode ser personalizado e aprimorado para atender às suas necessidades específicas.
