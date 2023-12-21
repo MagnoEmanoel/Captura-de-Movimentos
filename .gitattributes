@@ -1,16 +1,14 @@
-# Linguagem principal
+# Priorizar arquivos Python
 *.py linguist-detectable=true
 
-# Linguagem secundária
-*.tex linguist-language=TeX
-
-# Arquivos que não devem ser detectados
+# Arquivos de outros tipos que não devem ser contabilizados
 *.html linguist-detectable=false
 *.htm linguist-detectable=false
 *.css linguist-detectable=false
 *.js linguist-detectable=false
+*.tex linguist-detectable=false
 
-# Arquivos gerados ou de documentação que não devem ser contabilizados
+# Marcar arquivos gerados para que não sejam contados
 *.generated.html linguist-generated=true
 docs/*.html linguist-generated=true
 build/*.html linguist-generated=true
