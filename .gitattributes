@@ -1,16 +1,22 @@
-# .gitattributes
+# Linguagem principal
+*.py linguist-detectable=true
+
+# Linguagem secundária
+*.tex linguist-language=TeX
+
+# Arquivos que não devem ser detectados
 *.html linguist-detectable=false
 *.htm linguist-detectable=false
 *.css linguist-detectable=false
 *.js linguist-detectable=false
 
-*.tex linguist-language=TeX
-
+# Arquivos gerados ou de documentação que não devem ser contabilizados
 *.generated.html linguist-generated=true
 docs/*.html linguist-generated=true
 build/*.html linguist-generated=true
-
 /doc/* linguist-generated=true
 
-*.py linguist-detectable=true
-*.tex linguist-detectable=true
+# Ignorar arquivos de imagem e outros recursos não-código
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+*.ico linguist-detectable=false
