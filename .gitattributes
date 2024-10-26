@@ -4,7 +4,7 @@
 # Desconsiderar arquivos .tex, que estão dominando a contagem
 *.tex linguist-detectable=false
 
-# Arquivos de outros tipos que não devem ser contabilizados
+# Desconsiderar outros tipos de arquivos
 *.html linguist-detectable=false
 *.htm linguist-detectable=false
 *.css linguist-detectable=false
