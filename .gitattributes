@@ -1,12 +1,14 @@
 # Priorizar arquivos Python
 *.py linguist-detectable=true
 
+# Desconsiderar arquivos .tex, que estão dominando a contagem
+*.tex linguist-detectable=false
+
 # Arquivos de outros tipos que não devem ser contabilizados
 *.html linguist-detectable=false
 *.htm linguist-detectable=false
 *.css linguist-detectable=false
 *.js linguist-detectable=false
-*.tex linguist-detectable=false
 
 # Marcar arquivos gerados para que não sejam contados
 *.generated.html linguist-generated=true
